@@ -86,33 +86,33 @@ $('.popup-check').click(function(e) {
 });
 
 
-$('.reviews-block__slider-block').slick({
-  centerMode: true,
-  centerPadding: '69px',
-  slidesToShow: 3,
-  focusOnSelect: true,
-  variableWidth: true,
-  prevArrow: '<button id="prev" type="button" class="btn btn--prev"></button>',
-  nextArrow: '<button id="next" type="button" class="btn btn--next"></button>',
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
+// $('.reviews-block__slider-block').slick({
+//   centerMode: true,
+//   centerPadding: '69px',
+//   slidesToShow: 3,
+//   focusOnSelect: true,
+//   variableWidth: true,
+//   prevArrow: '<button id="prev" type="button" class="btn btn--prev"></button>',
+//   nextArrow: '<button id="next" type="button" class="btn btn--next"></button>',
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 3
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 1
+//       }
+//     }
+//   ]
+// });
 
 
 const select = document.querySelector('select');
@@ -161,19 +161,18 @@ $('[data-toggle="anchor"]').click(function(e) {
   }, 2000);
 });
 
-// var swiper = new Swiper(".reviews-block__slider-block", {
-//   grabCursor: true,
-//   slidesPerView: 3,
-//   spaceBetween: 69,
-//   // effect: "creative",
-//   centeredSlides: true,
-//   // creativeEffect: {
-//   //   prev: {
-//   //     shadow: true,
-//   //     // translate: [0, 0, -400],
-//   //   },
-//   //   next: {
-//   //     translate: ["100%", 0, 0],
-//   //   },
-//   // },
-// });
+var swiper = new Swiper(".reviews-block__slider-block", {
+  grabCursor: true,
+  slidesPerView: 1,
+  effect: "cards",
+  // effect: "creative",
+  // creativeEffect: {
+  //   prev: {
+  //     shadow: true,
+  //     // translate: [0, 0, -400],
+  //   },
+  //   next: {
+  //     translate: ["100%", 0, 0],
+  //   },
+  // },
+});

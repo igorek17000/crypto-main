@@ -717,6 +717,27 @@ const langArr = {
 		"ru": "30 минут",
 		"ua": "30 хвилин",
 	},
+
+	"program-sixteenth-lesson-theme-1": {
+		"ru": "Итоги обучения",
+		"ua": "Підсумки навчання",
+	},
+	"program-sixteenth-lesson-theme-2": {
+		"ru": "Ваши шаги после интенсива",
+		"ua": "Ваші кроки після інтенсива",
+	},
+	"program-sixteenth-lesson-theme-3": {
+		"ru": "Где находить информацию и на что обращать внимание?",
+		"ua": "Де знаходити інформацію та на що звертати увагу?",
+	},
+	"program-sixteenth-lesson-theme-4": {
+		"ru": "Осторожно, мошенники!",
+		"ua": "Обережно, шахраї!",
+	},
+	"program-sixteenth-lesson-theme-5": {
+		"ru": "Стратегия заработка Влада Лыманюка",
+		"ua": "Стратегія заробітку Влада Лиманюка",
+	},
 	"program-pro": {
 		"ru": '<img src="images/pro.png" alt="">',
 		"ua": '<img src="images/pro-ukr.png" alt="">',
