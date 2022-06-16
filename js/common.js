@@ -153,5 +153,6 @@ var swiper = new Swiper(".reviews-block__slider-block", {
 });
 
 $('.menu-link__language').on('click', function() {
+    location.href = window.location.pathname + '#ua';
     location.reload();
 });
