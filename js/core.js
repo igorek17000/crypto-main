@@ -69,6 +69,7 @@ $('.js-popup').click(function(e) {
 	$('.popup-frame').css("display", "flex").hide().fadeIn();
 	$('.popup[data-popup = ' + popupItem +']').fadeIn();
 	$('.popup-application').addClass('active');
+	$('.popup').fadeIn(); 
 });
 $('.popup-default-item p').click(function() {
 	$(this).siblings('input').focus();

@@ -684,7 +684,7 @@ const langArr = {
 	},
 
 	"program-lesson-title-14": {
-		"ru": "Урок 14. Фундаментальные анализ",
+		"ru": "Урок 14. Фундаментальный анализ",
 		"ua": "Урок 14. Фундаментальний аналіз",
 	},
 	"program-lesson-time-14": {
@@ -1080,5 +1080,22 @@ const langArr = {
 	"faq-fifth-card-text-5": {
 		"ru": "Доступ к интенсиву остаётся у вас на 3 месяца для пакета базовый и 4 месяца для пакета продвинутый. Поэтому смотреть и обучаться сможете в любое удобное время.",
 		"ua": "Доступ до інтенсиву залишається у вас на 3 місяці для пакета базовий і 4 місяці для пакета просунутий. Тому дивитися вчитися ви зможете в будь-який зручний час.",
+	},
+
+	"popup-title": {
+		"ru": 'Заполните данные чтобы перейти к оплате',
+		"ua": 'Заповніть дані, щоб перейти до оплати',
+	},
+	"popup-button": {
+		"ru": '<img src="images/button/participation.png" alt="">',
+		"ua": '<img src="images/button/participation1.png" alt="">',
+	},
+	"popup-input-phone": {
+		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
+		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	},
+	"popup-input-name": {
+		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
+		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
 	},
 }

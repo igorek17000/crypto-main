@@ -2659,7 +2659,7 @@ label {
     background-position: center -950px;
   }
   .community-block::before {
-    top: -10px;
+    top: -60px;
   }
 }
 
@@ -3228,7 +3228,6 @@ label {
   display: block;
   max-width: 410px;
   margin: 0 auto;
-  min-height: 632px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
@@ -3292,6 +3291,12 @@ label {
 
 .lang-why-card-text {
   color: #B6B6B6;
+}
+
+.lang-popup-input-name, .lang-popup-input-phone {
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
 .lang-why-second-card-text-3 {
@@ -3836,7 +3841,7 @@ label {
     max-width: 440px;
   }
   .community-block::before {
-    top: -67px;
+    top: -53px;
     left: -50%;
     margin-left: 66px;
     width: 1440px;
@@ -3868,8 +3873,6 @@ label {
   }
   .reviews-block__slide {
     max-width: 250px;
-    margin-right: 40px;
-    height: auto;
   }
   .reviews-block__wrapper {
     width: calc(100% + 60px);
@@ -3879,6 +3882,17 @@ label {
     margin-bottom: 45px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .reviews-block__slider-block {
+    left: 72px;
+  }
+  .swiper-button-prev {
+    margin-top: -82px;
+  }
+  .swiper-button-next {
+    right: 0;
+    z-index: 100;
+    margin-top: -82px;
   }
 }
 
@@ -3925,12 +3939,10 @@ select.change-lang {
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   .reviews-block__slide {
     max-width: 250px;
-    margin-right: 40px;
-    height: auto;
   }
   .community-block::before {
     margin-left: 300px;
-    top: -305px;
+    top: -35px;
   }
 }
 
