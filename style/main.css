@@ -1089,7 +1089,7 @@ label {
     display: block;
     position: relative;
     z-index: 2; }
-  .button::before {
+/*  .button::before {
     content: '';
     width: 95%;
     height: 95%;
@@ -1100,7 +1100,7 @@ label {
             box-shadow: 0px 4.07125px 4.07125px rgba(0, 0, 0, 0.25), 0px 1.01781px 40.7125px rgba(246, 234, 137, 0.26);
     -webkit-border-radius: 8px;
             border-radius: 8px;
-    position: absolute; }
+    position: absolute; }*/
   .button:hover {
     -webkit-transform: scale(1.03);
         -ms-transform: scale(1.03);
@@ -5049,6 +5049,10 @@ select.change-lang {
       width: 320px;
       padding: 50px 20px; } }
 
+.popup-application.active {
+  display: block;
+}
+
 .popup-close {
   width: 35px;
   display: block;
@@ -6036,7 +6040,7 @@ select.change-lang {
   .popup-check:first-child {
     margin-top: 35px; }
   .popup-check span {
-    font-size: 14px; }
+    font-size: 12px; }
   .popup-check a {
     color: #E3C55E; }
 
