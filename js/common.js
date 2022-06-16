@@ -151,3 +151,7 @@ var swiper = new Swiper(".reviews-block__slider-block", {
   //   },
   // },
 });
+
+$('.menu-link__language').on('click', function() {
+    location.reload();
+});
