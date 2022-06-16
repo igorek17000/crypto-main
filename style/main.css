@@ -2471,6 +2471,7 @@ label {
 }*/
 
 .swiper-button-prev {
+  outline: 0;
   position: absolute;
   top: 50%;
   left: -100px;
@@ -2496,6 +2497,7 @@ label {
 }
 
 .swiper-button-next {
+  outline: 0;
   position: absolute;
   top: 50%;
   right: -100px;
