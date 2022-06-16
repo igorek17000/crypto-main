@@ -163,8 +163,12 @@ $('[data-toggle="anchor"]').click(function(e) {
 
 var swiper = new Swiper(".reviews-block__slider-block", {
   grabCursor: true,
-  slidesPerView: 1,
+  slidesPerView: 'auto',
   effect: "cards",
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   // effect: "creative",
   // creativeEffect: {
   //   prev: {
